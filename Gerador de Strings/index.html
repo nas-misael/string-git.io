@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor De Texto</title>
+    <link rel="stylesheet" href="./asssets/CSS/mobile.css"  media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="./asssets/CSS/desktop.css" media="screen and (min-width: 768px)">
+    <link rel="shortcut icon" href="./asssets/Images/pencil.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+            <div class="left">
+                <h1>Conversor de texto!</h1>
+                <h2>Use seu conversor de texto para obter uma string da forma que escolher!</h2>
+                    <div class="caracter">
+                        
+                        <textarea name="string" placeholder="Escreva ou copie seu conteúdo aqui" id="entrada" cols="120" style="resize: none; margin-top: 3%; background-color: #C5C3C6; overflow: auto;" rows="10"></textarea>
+                        <div class="counts">
+                            Nº Caracteres c/ espaço: <span id="numeroCarac">0</span> | Nº Caracteres s/ espaço: <span id="numeroCaracEspaco">0</span> | Palavras: <span id="frases">0</span> | Parágrafo: <span id="linhas">0</span>
+                        </div>
+                        <div class="radios">
+                            <button title="Formate em UpperCase seu texto" type="button" id="uppercase">UPPERCASE</button>
+                            <button title="Formate em LowerCase seu texto" type="button" id="lowercase">lowercase</button>
+                            <button title="Formate em Camel Case seu texto" type="button" id="camelcase">Camel Case</button>
+                            <button title="Formate em Paragráfo seu texto" type="button" id="paragrafo">Parágrafo</button>
+                            <button title="Deixe seu texto personalizado" type="button" id="alternativo">AlTeRnAtIvO</button>
+                            <button title="Inverta seu texto" type="button" id="inverter">Inverter</button>
+                            <button title="Limpar seu texto" type="button" id="reset">Limpar</button>
+                        </div>
+                        
+                        <br />
+                        <textarea class="textarea" name="saida" id="saida" placeholder="Seu conteúdo" cols="120" disabled style="resize: none; margin-top: 3%; background-color: #C5C3C6; overflow: auto;" rows="10"></textarea>
+                        <br />
+                        <div class="tooltip">
+                            <button id="Cpy">
+                                <span class="tooltiptext" id="myTooltip">Copie para clipboard</span><img src="./asssets/Images/copiar.png" alt="" style="height: 35px; width: 35px; background-color: #4C5C68;" />
+                            </button>
+                        </div>
+                    </div>
+            </div>
+            
+    </main>
+    <script src="./asssets/JS/variaveis.js"></script>
+    <script src="./asssets/JS/contador.js"></script>
+    <script src="./asssets/JS/funcionalidades.js"></script>
+</body>
+</html>

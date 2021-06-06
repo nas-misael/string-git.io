@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #A2A2A4 ;
+  
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+.radios{
+  margin-top: 3vh;
+  display: inline-block;
+  margin-left: 10vw;
+}
+
+textarea {
+  width: 100vw;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto',  sans-serif;
+  color: #555;
+  outline: none;
+  padding: 10px;
+}
+
+.resultado {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+.left>h1 {
+  color: #46494C;
+  text-align: center;
+  font-family: 'Roboto',  sans-serif;
+  font-weight:bold;
+  font-size:27px;
+  padding:10px 10px;
+  align-items: center;
+  margin-left: 60vw;
+}
+.left>h2 {
+  color: #46494C;
+  text-align: center;
+  font-family: 'Roboto',  sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  margin-left: 60vw;
+}
+
+.caracter {
+  height: 50vw;
+  width: 100vh;
+  text-align: center;
+  align-items: center;
+  font-family: 'Roboto',  sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  padding:10px 10px;
+}
+
+button {
+  border: 0;
+  padding: 5px 5px;
+  font-weight: 700;
+  display: inline-block;
+  border-radius:4px;
+  cursor:pointer;
+  width: 120px;
+  font-family: 'Roboto',  sans-serif;
+  text-decoration:none;
+  border-color:#4C5C68;
+  background-color: #4C5C68;
+  color:#fff;
+  text-align: center;
+  outline: none;
+  
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
