@@ -20,7 +20,8 @@ html, body {
 }
 
 textarea {
-  width: 100vw;
+  width: 150vw;
+  margin-bottom: 30px;
   font-size: 18px;
   font-weight: 700;
   font-family: 'Roboto',  sans-serif;
@@ -38,8 +39,12 @@ textarea {
   width: 80vw;
   margin-left: 10vw;
 }
+.titulo {
+  margin-left: 40vw;
+  width: 100vw;
+}
 
-.left>h1 {
+.titulo>h1 {
   color: #46494C;
   text-align: center;
   font-family: 'Roboto',  sans-serif;
@@ -47,15 +52,17 @@ textarea {
   font-size:27px;
   padding:10px 10px;
   align-items: center;
-  margin-left: 60vw;
 }
-.left>h2 {
+.titulo>h2 {
   color: #46494C;
   text-align: center;
   font-family: 'Roboto',  sans-serif;
   font-weight:bold;
   font-size:20px;
-  margin-left: 60vw;
+}
+
+.counts {
+  margin-bottom: 35px;
 }
 
 .caracter {
@@ -84,8 +91,10 @@ button {
   color:#fff;
   text-align: center;
   outline: none;
-  
+  margin-bottom: 30px;
 }
+
+
 
 .tooltip {
   position: relative;

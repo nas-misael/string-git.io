@@ -67,7 +67,7 @@ main {
     margin-left: 10%;
 }
 
-.left>h1 {
+.titulo>h1 {
     color: #46494C;
     text-align: center;
     font-family: 'Roboto',  sans-serif;
@@ -75,7 +75,7 @@ main {
     font-size:27px;
     padding:10px 10px;
 }
-.left>h2 {
+.titulo>h2 {
     color: #46494C;
     text-align: center;
     font-family: 'Roboto',  sans-serif;
